@@ -6,6 +6,6 @@ Team members: Lok Wu Aleka Sun, Ewura Abena Coker, Thalena Gundersen (release ma
 # Plan
 
 - Tonino Carlo Cosentino: cold days per year in Uppsala 1723-2022 (macros/coldDays.C), fixes for the data cleaning script
-- Thalena Gundersen: warm days per year in Uppsala 1722-2022 (macros/WarmDays.C)
-- Lok Wu Aleka Sun: mean temperature per year in uppsala 1723-2022 (macros/MeanAnnualTemp.C)
+- Thalena Gundersen: warm days per year in Uppsala 1722-2022 (macros/WarmDays.C). as release manager, coordinate collaborative development, reviewing and merging pull requests, and maintaining the main GitHub repository. 
+- Lok Wu Aleka Sun: mean temperature per year in uppsala 1723-2022 (macros/MeanAnnualTemp.C). 
 - Ewura Abena Coker: Lund mean annual temperature trend (macros/MeanAnnualTempLund.C) and comparison with Uppsala 
