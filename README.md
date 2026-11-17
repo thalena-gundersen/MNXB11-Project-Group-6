@@ -46,3 +46,21 @@ To run the macro in batch mode, ensure ROOT is available and execute:
 
     root -l -b -q macros/MeanAnnualTempLundClean.C
 The macro outputs decade slope statistics to stdout and generates the plot with a multi-fit legend.
+
+### Mean Annual Temperature in Uppsala
+
+Run the following command from the repository root:
+
+```bash
+root -l 'macros/MeanAnnualTemp.C()'
+```
+
+The macro reads the cleaned, unfiltered Uppsala dataset from
+`data/cleaned/uppsala_tm_1722-2022.dat`.
+
+It calculates annual mean temperatures for 1723–2022 using
+urban-corrected temperature values, computes a centered
+30-year moving average, and applies linear fits to three
+historical periods.
+
+The resulting graph is displayed in an interactive ROOT canvas.
